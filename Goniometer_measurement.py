@@ -774,8 +774,8 @@ class ELTASK(threading.Thread):
             self.queue.put("\n\nPHOTODIODE READINGS") 
             "IMPLEMENTATION"                               
             # generate empty lists for later data collection
-            low_vlt = np.arange(self.min_voltage, self.change_voltage, self.max_step_voltage) # Voltage points for low OLED voltage
-            high_vlt = np.arange(self.change_voltage, self.max_voltage+0.1, self.min_step_voltage) # Voltage points for high OLED voltage
+            low_vlt = np.arange(self.min_voltage, self.change_voltage, self.min_step_voltage) # Voltage points for low OLED voltage
+            high_vlt = np.arange(self.change_voltage, self.max_voltage+0.1, self.max_step_voltage) # Voltage points for high OLED voltage
             OLEDvlt = []
             OLEDcrt = []
             PDvlt = []
