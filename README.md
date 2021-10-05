@@ -1,8 +1,8 @@
 ## Angle Resolved Electro- and Photoluminescence Characterisation Framework
 
-Lead Developer: Julian Butscher @ GatherLab
+__Lead Developer: Julian Butscher @ GatherLab__
 
-Please note that the completely refactored versions of the measurement and evaluation software have been moved to different repositories:
+Please note that completely refactored versions of the measurement and evaluation software have been moved to different repositories:
 
 __Measurement Software__:
 https://github.com/GatherLab/OLED-jvl-measurement
